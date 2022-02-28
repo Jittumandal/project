@@ -1,0 +1,195 @@
+a {
+  text-decoration: none !important;
+}
+.navbar-nav a {
+  margin-right: 30px;
+  color: #fff;
+}
+.navbar-nav a:hover {
+  color: #030303;
+}
+.navbar-brand img {
+  height: 50px;
+}
+.navbar {
+  z-index: 9999;
+  position: fixed;
+  background: rgb(0, 146, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(97 218 251) 0%,
+    rgba(139, 61, 255, 1) 83%
+  );
+  border-bottom: 0 !important;
+  width: 100%;
+  top: 0px;
+}
+.navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+  padding: 0px;
+}
+.dropdown-menu {
+  background: rgba(33, 39, 44, 0.95);
+}
+.dropdown-toggle::after {
+  vertical-align: 0em;
+}
+.dropdown-divider {
+  border-top: 1px solid rgb(255 255 255);
+}
+.dropdown-item {
+  padding: 0.6rem 1rem;
+}
+.dropdown-divider {
+  margin: 0rem 0;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #fff;
+  background-color: #1f252a;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: 0px;
+  margin-top: 1rem;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #232a37;
+  position: absolute;
+  top: -13px;
+  left: 20px;
+}
+.react_templ {
+  display: -webkit-box;
+  max-width: 100%;
+  height: 45px;
+  /* margin: 0 auto; */
+  font-size: 13px;
+  line-height: 1;
+  margin-top: 0px !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 15px;
+  width: 70%;
+  line-height: 24px;
+  text-align: left;
+  float: initial;
+  margin: 0px;
+  display: inline-block;
+  padding: 0px;
+  cursor: pointer;
+}
+
+/* === HEADING STYLE #1 === */
+.one {
+  position: relative;
+}
+.one span {
+  font-size: 15px;
+  margin-top: 5px;
+  float: left;
+  width: 100%;
+  text-transform: capitalize;
+}
+.one h1 {
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  font-size: 2.25em;
+}
+.one h1:before {
+  width: 28px;
+  height: 6px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  border-radius: 5px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #65cafb;
+}
+.one h1:after {
+  width: 100px;
+  height: 2px;
+  display: block;
+  content: "";
+  border-radius: 5px;
+  position: relative;
+  margin-top: 45px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #65cafb;
+}
+
+/* === HEADING STYLE #2 === */
+.two h1 {
+  text-transform: capitalize;
+}
+.two h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background-color: #c50000;
+}
+
+.two h1 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 10px;
+}
+.alt-two h1 {
+  text-align: center;
+}
+.alt-two h1:before {
+  left: 50%;
+  margin-left: -30px;
+}
+
+/* === HEADING STYLE #3 === */
+.three h1 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  position: relative;
+}
+.three h1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  width: 55px;
+  background-color: #111;
+}
+.three h1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  height: 1px;
+  width: 95%;
+  max-width: 255px;
+  background-color: #333;
+}
